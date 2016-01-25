@@ -18,24 +18,7 @@
 <body>
 <div id="siteframe">
     <div id="wrapper">
-        <header>
-            <div class="inner">
-                <a href="/index.php" class="logo">15656.com</a>
-                <div class="hamburger"><a id="nav-toggle" href="#"><span></span></a></div>
-                <nav>
-                    <a href="#">Home</a>
-                    <a href="#">See</a>
-                    <a href="#">Play</a>
-                    <a href="#">Eat</a>
-                    <a href="#">Shop</a>
-                </nav>
-                <nav>
-                    <a href="#">Local Business</a>
-                    <a href="#">About</a>
-                </nav>
-                <div class="clear0"></div>
-            </div>
-        </header>
+        <?php include('site_header.php'); ?>
         <main>
         	<section id="featured_header" style="background-image:url(../images/sample_homepage_01.jpg);">
                 <div class="inner">
@@ -48,6 +31,21 @@
                 <div class="inner">
                     <div class="pad">
                         <h2>Something interesting about this photo.</h2>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="featured_block_whole" style="background-image:url(images/sample_mighty_kiski_river.jpg); background-position:top center;">
+                <div class="inner quarter">
+                    <div class="pad">
+                        <h2>See the mighty Kiskiminetas River.</h2>
+                    </div>
+                </div>
+            </section>
+            <section class="featured_block_whole" style="background-image:url(images/sample_downtown_01.jpg); background-position:top center;">
+                <div class="inner quarter">
+                    <div class="pad">
+                        <h2>Visit us.</h2>
                     </div>
                 </div>
             </section>
@@ -81,43 +79,9 @@
         	</div>
             <div class="spacer30 clearbox"></div>
         </main>
-        <footer>
-            <div class="inner">
-                <p>Footer content</p>
-                <nav>
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                    <a href="#">Link 4</a>
-                </nav>
-                <div class="spacer20 clearbox"></div>
-            </div>
-        </footer>
+        <?php include('site_footer.php'); ?>
     </div>
-    <div id="mobile_menu">
-    	<div id="logo">LOGO HERE</div>
-        <div>
-        	<div class="pad12">
-            	<p>Suspendisse mattis sapien eget tortor ultrices vulputate. Cras interdum, odio quis viverra volutpat, ligula dui fermentum felis, 
-                quis dictum mi eros sit amet dolor. Fusce in orci magna, at faucibus nulla. Phasellus molestie nibh et libero laoreet sed suscipit 
-                odio ornare. Nam at erat a magna commodo blandit a at dui. Sed in hendrerit nisl. Maecenas vel mauris diam, a imperdiet nisl. Fusce 
-                ut justo eget erat feugiat varius. Nunc sed leo a ligula varius rhoncus sed nec lacus. Vestibulum cursus placerat velit, et 
-                ullamcorper nisi hendrerit eu. Vestibulum porttitor, urna tincidunt dapibus semper, lectus est rhoncus purus, quis adipiscing ligula 
-                neque quis tortor. Donec dignissim, urna nec facilisis consequat, velit lorem varius ipsum, et aliquet erat sapien in augue. Nam egestas, 
-                ligula a bibendum euismod, lacus ipsum lobortis magna, nec mattis sem felis eu lacus. Suspendisse nisl odio, consequat sed cursus in, 
-                auctor eleifend urna. </p>
-            </div>
-        </div>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Link</a></li>
-        </ul>
-        <div id="mobile_menu_botton_holder">
-            <a href="#"><span>Link 1</span></a> <a href="#"><span>Link 2</span></a>
-        </div>
-        <div class="clear0"></div>
-        Copyright &copy;2015 Clinton N Godlesky, All Rights Reserved.
-    </div>
+    <?php include('site_mobilemenu.php'); ?>
 </div>
 <div id="responder"></div>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>

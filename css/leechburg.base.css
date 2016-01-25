@@ -1,4 +1,4 @@
-body 			{ background-color: #fff; color: #5d5d5d; font-family: 'Lato', sans-serif; font-weight: 400; normal; margin: 0; overflow-y: scroll; z-index: 1; }
+body 			{ background-color: #fff; color: #5d5d5d; font-family: 'Lato', sans-serif; font-weight: 400; margin: 0; overflow-y: scroll; z-index: 1; }
 a 				{ border: 0 none; }
 input 			{ border-radius: 0; }
 #siteframe 		{ background-color: #25282a; overflow: hidden; position: relative; width: 100%; z-index: 1; min-width:320px; }
@@ -21,6 +21,9 @@ header nav a:hover  { text-decoration: underline; }
 
 .featured_block_whole        { display:block; background-position: bottom center; background-size: cover; border-top:3px solid #fff; }
 .featured_block_whole .inner { width:100%; background-color: rgba(0, 0, 0, 0.5); }
+.featured_block_whole .inner.half 			{ background-color: rgba(0, 0, 0, 0.5); }
+.featured_block_whole .inner.quarter 		{ background-color: rgba(0, 0, 0, 0.25); }
+.featured_block_whole .inner.threequarter 	{ background-color: rgba(0, 0, 0, 0.75); }
 .featured_block_whole .pad   { display:block; padding: 200px 30px; }
 .featured_block_whole h2     { display:block; width:40%; color:#fff; font-size: 32px; line-height: 36px; text-align: center; font-weight: 400; text-transform: uppercase; color:#fff; }
 
