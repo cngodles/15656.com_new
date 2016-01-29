@@ -2,10 +2,10 @@
     <div class="inner">
         <p>Footer content</p>
         <nav>
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-            <a href="#">Link 4</a>
+            <a href="/see">See</a>
+            <a href="/play">Play</a>
+            <a href="/eat">Eat</a>
+            <a href="/shop">Shop</a>
         </nav>
         <div class="spacer20 clearbox"></div>
     </div>
