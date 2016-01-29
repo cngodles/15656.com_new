@@ -1,6 +1,6 @@
 <?php
 require_once('site_config.php');
-$list = yumdata_array("SELECT * FROM `attractions` WHERE `type` = ? ORDER BY `name`", array('EAT'));
+$list = yumdata_array("SELECT * FROM `attractions` WHERE `type` = ? ORDER BY `name`", array('SHOP'));
 ?>
 <!doctype html>
 <html lang="en-US">
@@ -27,7 +27,7 @@ $list = yumdata_array("SELECT * FROM `attractions` WHERE `type` = ? ORDER BY `na
         	<section id="featured_header" style="background-image:url(../images/sample_bg_eat.jpg);">
                 <div class="inner">
                     <div class="pad">
-                        <h1>Find a Restaurant in Leechburg</h1>
+                        <h1>Go shopping in Leechburg</h1>
                     </div>
                 </div>
             </section>
@@ -38,7 +38,7 @@ $list = yumdata_array("SELECT * FROM `attractions` WHERE `type` = ? ORDER BY `na
                         <?php foreach($list as $place){ ?>
                             <a href="#" class="item">
                                 <div class="graphic" style="background-image:url(http://www.15656.com/media/images/site_library/<?= $place['icon'] ?>);"></div>
-                                <?= $place['name'] ?>
+                                <div class="name"><?= $place['name'] ?></div>
                                 <div class="clear0"></div>
                             </a>
                         <?php } ?>

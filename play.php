@@ -1,6 +1,6 @@
 <?php
 require_once('site_config.php');
-$list = yumdata_array("SELECT * FROM `attractions` WHERE `type` = ? ORDER BY `name`", array('EAT'));
+$list = yumdata_array("SELECT * FROM `attractions` WHERE `type` = ? ORDER BY `name`", array('PLAY'));
 ?>
 <!doctype html>
 <html lang="en-US">
@@ -24,10 +24,10 @@ $list = yumdata_array("SELECT * FROM `attractions` WHERE `type` = ? ORDER BY `na
     <div id="wrapper">
         <?php include('site_header.php'); ?>
         <main>
-        	<section id="featured_header" style="background-image:url(../images/sample_bg_eat.jpg);">
+        	<section id="featured_header" style="background-image:url(../images/sample_bg_play.jpg);">
                 <div class="inner">
                     <div class="pad">
-                        <h1>Find a Restaurant in Leechburg</h1>
+                        <h1>Places to Play in Leechburg</h1>
                     </div>
                 </div>
             </section>
