@@ -36,7 +36,7 @@ $list = yumdata_array("SELECT * FROM `attractions` WHERE `type` = ? ORDER BY `na
                     <div class="pad">
                         <h2>Select a place below</h2>
                         <?php foreach($list as $place){ ?>
-                            <a href="#" class="item">
+                            <a href="/<?= strtolower($place['type']) ?>/<?= str_replace(' ', '-', $place['menu']) ?>" class="item">
                                 <div class="graphic" style="background-image:url(http://www.15656.com/media/images/site_library/<?= $place['icon'] ?>);"></div>
                                 <?= $place['name'] ?>
                                 <div class="clear0"></div>
