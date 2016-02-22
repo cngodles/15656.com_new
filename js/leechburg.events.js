@@ -15,7 +15,7 @@ $(document)
 
 var responder = {
 	openwidth:-68,
-	isopen:true,
+	isopen:false,
 	action:false,
 	curZindex:1,
 	resizeCallbacks:[function(){ responder.setFrameWidths() }],

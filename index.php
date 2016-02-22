@@ -23,10 +23,38 @@
         	<section id="featured_header" style="background-image:url(../images/sample_homepage_01.jpg);">
                 <div class="inner">
                     <div class="pad">
-                        <h1>Welcome to Leechburg, PA</h1>
+                        <h1>Welcome to Leechburg</h1>
                     </div>
                 </div>
             </section>
+            
+            
+            <section id="home_attractions">
+                <a href="/see" id="home_see" class="at" style="background-image:url(images/bg_see_leechburgbridge.jpg);">
+                	<div class="overlay see"></div>
+                	<h2>See</h2>
+                    <p>Leechburg's sights and monuments</p>
+                </a>
+                <a href="/play" id="home_play" class="at" style="background-image:url(images/bg_play_leechburgpark.jpg);">
+                	<div class="overlay play"></div>
+                    <h2>Play</h2>
+                    <p>Parks and Recreation</p>
+                </a>
+                <a href="/eat" id="home_eat" class="at">
+                	<div class="overlay eat"></div>
+                    <h2>Eat</h2>
+                    <p>Local food</p>
+                </a>
+                <a href="/shop" id="home_shop" class="at">
+                	<div class="overlay shop"></div>
+                    <h2>Shop</h2>
+                    <p>Places to buy unique items</p>
+                </a>
+                <div class="clear0"></div>
+            </section>
+            
+            
+            
             <section class="featured_block_whole" style="background-image:url(../images/sample_town_mini.jpg);">
                 <div class="inner">
                     <div class="pad">
