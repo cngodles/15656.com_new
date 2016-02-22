@@ -13,7 +13,7 @@ header nav a    { display:inline-block; padding-left: 25px; text-decoration: non
 header nav a:hover  { text-decoration: underline; }
 
 #featured_header    { display:block; background-position: center center; background-size: cover; }
-#featured_header .inner { width:100%; background-color: rgba(0, 0, 0, 0.5); }
+#featured_header .inner { width:100%; background-color: rgba(0, 0, 0, 0.4); }
 #featured_header .pad   { display:block; padding: 200px 30px; }
 #featured_header h1     { font-size: 50px; line-height: 55px; text-align: center; font-weight: 400; text-transform: uppercase; color:#fff; }
 
@@ -25,23 +25,42 @@ header nav a:hover  { text-decoration: underline; }
 .featured_block_whole .inner.quarter 		{ background-color: rgba(0, 0, 0, 0.25); }
 .featured_block_whole .inner.threequarter 	{ background-color: rgba(0, 0, 0, 0.75); }
 .featured_block_whole .pad   				{ display:block; padding: 200px 30px; }
-.featured_block_whole h2     				{ display:block; width:40%; color:#fff; font-size: 32px; line-height: 36px; text-align: center; font-weight: 400; text-transform: uppercase; color:#fff; }
+.featured_block_whole h2     				{ display:block; width:40%; color:#fff; font-size: 32px; line-height: 36px; text-align: center; font-weight: 400; text-transform: uppercase; }
 
 
 
 
 
-#home_attractions				{ display:block; }
-#home_attractions a.at			{ display:block; width:50%; height:250px;  position:relative; z-index:1; background-size:cover; background-position:center center; text-decoration:none; }
-#home_attractions a.at h2 		{ display:block; width:100%; height:40px; line-height:40px; color:#fff; font-size:40px; text-transform:uppercase; text-align:center; position:relative; z-index:10; padding:90px 0 0 0; margin:0 auto; font-weight:700; }
-#home_attractions a.at p		{ color:#fff; font-size:16px; line-height:20px; text-align:center; width:240px; text-align:center; margin:0 auto; position:relative; z-index:10; }
+#home_attractions					{ display:block; }
+#home_attractions a.at				{ display:block; width:50%; height:200px;  position:relative; z-index:1; background-color: #000; background-size:cover; background-position:center center; text-decoration:none; float:left; }
+#home_attractions a.at.r			{ float:right; }
+#home_attractions a.at .cta			{ display:block; padding:10px; width:200px; height:auto; border:0; margin:60px auto 0 auto; position:relative; z-index:10; }
+#home_attractions a.at:hover .cta	{ border:2px solid #fff; border-radius:25px; margin:58px auto 0 auto; }
+#home_attractions a.at h2 			{ display:block; width:100%; height:40px; line-height:40px; color:#fff; font-size:40px; text-transform:uppercase; text-align:center; margin:0 auto; font-weight:700; }
+#home_attractions a.at p			{ color:#fff; font-size:16px; line-height:20px; text-align:center; width:100%; margin:0 auto; }
+
+
+.overlay			{ width:100%; height:200px; position:absolute; top:0; left:0; z-index:2; background-color: rgba(0, 0, 0, 0.3); }
+#home_attractions a.at:hover .overlay	{ background-color: rgba(0, 0, 0, 0.8); }
+	
+/*
+.overlay.see		{ background-color: rgba(0, 0, 0, 0.3); }
+.overlay.play		{ background-color: rgba(0, 0, 0, 0.3); }	
+.overlay.eat		{ background-color: rgba(0, 0, 0, 0.3); }	
+.overlay.shop		{ background-color: rgba(0, 0, 0, 0.3); }
+#home_attractions a.at:hover .overlay.see	{ background-color: rgba(0, 0, 0, 1); }
+#home_attractions a.at:hover .overlay.play	{ background-color: rgba(0, 0, 0, 1); }	
+#home_attractions a.at:hover .overlay.eat:	{ background-color: rgba(0, 0, 0, 1); }	
+#home_attractions a.at:hover .overlay.shop	{ background-color: rgba(0, 0, 0, 1); }
+
+*/
+/*
 
 #home_see				{ float:left; background-color: #fdbb30; }
 #home_play				{ float:right; background-color: #54b948; }
 #home_eat				{ float:left; background-color: #ef2c74; }
 #home_shop				{ float:right; background-color: #00a4e4; }
 
-.overlay			{ width:100%; height:250px; position:absolute; top:0; left:0; z-index:2; }
 .overlay.see		{ background-color: rgba(253, 187, 48, 0.5); }
 .overlay.play		{ background-color: rgba(84, 185, 72, 0.5); }	
 .overlay.eat		{ background-color: rgba(239, 44, 116, 0.5); }	
@@ -50,6 +69,7 @@ header nav a:hover  { text-decoration: underline; }
 #home_attractions a.at:hover .overlay.play	{ background-color: rgba(84, 185, 72, 1); }	
 #home_attractions a.at:hover .overlay.eat:	{ background-color: rgba(239, 44, 116, 1); }	
 #home_attractions a.at:hover .overlay.shop	{ background-color: rgba(0, 164, 228, 1); }
+*/
 
 
 

@@ -32,23 +32,31 @@
             <section id="home_attractions">
                 <a href="/see" id="home_see" class="at" style="background-image:url(images/bg_see_leechburgbridge.jpg);">
                 	<div class="overlay see"></div>
-                	<h2>See</h2>
-                    <p>Leechburg's sights and monuments</p>
+                	<div class="cta">
+                        <h2>See</h2>
+                        <p>Leechburg's sights and monuments</p>
+                    </div>
                 </a>
                 <a href="/play" id="home_play" class="at" style="background-image:url(images/bg_play_leechburgpark.jpg);">
                 	<div class="overlay play"></div>
-                    <h2>Play</h2>
-                    <p>Parks and Recreation</p>
+                    <div class="cta">
+                        <h2>Play</h2>
+                        <p>Parks and Recreation</p>
+                    </div>
                 </a>
                 <a href="/eat" id="home_eat" class="at">
                 	<div class="overlay eat"></div>
-                    <h2>Eat</h2>
-                    <p>Local food</p>
+                    <div class="cta">
+                        <h2>Eat</h2>
+                        <p>Local food</p>
+                    </div>
                 </a>
                 <a href="/shop" id="home_shop" class="at">
                 	<div class="overlay shop"></div>
-                    <h2>Shop</h2>
-                    <p>Places to buy unique items</p>
+                    <div class="cta">
+                        <h2>Shop</h2>
+                        <p>Places to buy unique items</p>
+                    </div>
                 </a>
                 <div class="clear0"></div>
             </section>
